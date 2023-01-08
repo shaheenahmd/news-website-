@@ -1,0 +1,16 @@
+
+<div class="container mt-3">
+    <div class="row">
+        <h3 class="text-white">Top Sports Headlines</h3>
+        <hr class="text-white">
+        <div *ngFor="let nd of displaySportsData" class="col-lg-4 col-md-6 mt-4 mb-4">
+            <div class="box">
+                <img src="{{nd.urlToImage}}" alt="" width="100%">
+                <h5 class="mt-3 mb-3">{{nd.title}}</h5>
+                <span>{{nd.content}}</span><br>
+                <a target="_blank" href="{{nd.url}}" class="btn btn-sm btn-dark mt-3" >Read More</a>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
