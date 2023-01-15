@@ -5,15 +5,18 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 .navbar{
-    padding: 1px 100px;
+    padding: 40px 100px;
     background-color: #333533;
+    /* height: 120px; */
     
 }
 .navbar-brand{
-    font-size: 3rem;
-    font-weight: 700;
-    padding: 20px 0px;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 1px 10px;
     color:#E50914;
+    border-radius: 10PX;
+    background: #fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .navbar-toggler-icon{
@@ -29,7 +32,8 @@ display: inline;
 padding: 2px 10px;
 }
 .navbar ul a:hover{
-    background-color:#E50914;
+    /* background-color:#E50914; */
+    color: #E50914 !important;
     transition: 0.3s ease;
     border-radius: 5px;
 }
@@ -47,13 +51,17 @@ footer span{
 
 @media screen and (max-width:600px) {
     .navbar{
-        padding: 10px 40px;
+        padding: 30px 40px;
     }
     .navbar ul a{
         color: #fff;
         display: block;
         padding: 20px;
+        background-color: #333533;
 
+        }
+        .navbar-brand{
+            font-size: 1.5rem;
         }
         .btn{
             padding: 1px 15px;

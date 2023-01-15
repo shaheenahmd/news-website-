@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'news_web';
+
+  onsubsribe(){
+    alert("Thank you for subscribing NEWS HOUR ")
+  }
 }
